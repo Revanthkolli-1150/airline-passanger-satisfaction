@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching and Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large Datasets & Raw Competition Files
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+data/*.zip
+
+# Keep sample test passengers for demo & testing
+!data/sample_passengers.csv
+!data/README.md
+
+# Large Model Binaries (joblib / cbm)
+models/*.joblib
+models/*.cbm
+!models/README.md
+
+# Submissions & Large Generated CSVs
+artifacts/airline_satisfaction_*.csv
+!artifacts/README.md
+!artifacts/*.json
+
+# Credentials, Keys & Secrets
+kaggle.json
+*.key
+*.pem
+.env
+.env.*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
